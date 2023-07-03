@@ -1,0 +1,44 @@
+.TodoItem-loading{
+    border-radius: 10px;
+    width: 100%;
+    margin: 5% 0;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+    color: #373737;
+
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(233, 252, 255, 0.705), rgba(147, 219, 255, 0.824));
+}
+
+.loading-p{
+    font-size: 4em;
+    width: auto;
+}
+
+.TodoItem-loading {
+    
+    background-size: 200% 200%;
+    animation: Animation 1s ease infinite;
+}
+
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+.loading-p {
+    
+    transform: rotate(0deg);
+    animation: Rotation 1s ease infinite;
+}
+
+@keyframes Rotation { 
+    0%{transform: rotate(5deg);}
+    50%{transform: rotate(-5deg);}
+    100%{transform: rotate(5deg);}
+}

@@ -1,0 +1,12 @@
+
+.ListContainer{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .List-TodoList{
+        padding: 0%;
+    }
+  }

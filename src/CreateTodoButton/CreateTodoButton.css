@@ -1,0 +1,40 @@
+.Button{
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    outline: none;
+    background: #ededed;
+    color: rgba(0, 0, 0, 0.505);
+    min-width: 20%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.Button-CreateTodoButton{
+    transition: all 0.5s;
+    background: #d7ffe5;
+}
+
+.Button-CreateTodoButton:hover{
+    color: rgba(0, 0, 0, 0.773);
+    background: #c2ffd7;
+}
+
+.ButtonContainer{
+    width: 100%;
+    height: 40px;
+}
+
+@media screen and (max-width: 900px){
+    .ButtonContainer{
+        width: auto;
+    }
+}
+
+.Button-Cancel{
+    background: #ededed;
+    transition: all 0.3s;
+}
+
+.Button-Cancel:hover{
+    background: #cacaca;
+}

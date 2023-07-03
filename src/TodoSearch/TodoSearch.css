@@ -1,0 +1,14 @@
+.Input {
+    
+}
+
+.TodoSearchContainer .Input-TodoSearch{
+    height: 100%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+.TodoSearchContainer{
+    height: 30px;
+}

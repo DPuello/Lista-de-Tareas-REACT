@@ -1,0 +1,45 @@
+#root{
+  
+  display: flex;
+}
+@media screen and (max-width: 900px) {
+  #root {
+    display: block;
+  }
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right top, #05193778, #004d7a74, #0087937e, #00bf7375, #a6eb1260);
+  background-attachment: fixed;
+  font-family: 'Raleway', sans-serif;
+}
+
+.mainText{
+  font-size: 400%;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 4px;
+}
+
+.Input {
+  border-radius: 10px;
+  border: none;
+  background: rgba(228, 253, 255, 0.495);
+}
+
+.Input::placeholder{
+  color: rgba(0, 0, 0, 0.423);
+  border-color: aqua;
+}
+
+.Input:focus {
+  outline: none;
+  box-shadow: 0 0 3px #00000017;
+}
+
+.Input--NewWork{
+  text-align: center;
+  width: 100%;
+  min-height: 20%;
+}
