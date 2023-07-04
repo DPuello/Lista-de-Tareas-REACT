@@ -14,6 +14,8 @@ Esta es una aplicación web desarrollada en React que permite a los usuarios adm
 - HTML/CSS: utilizados para estructurar y diseñar la interfaz de usuario.
 - Local Storage: API del navegador utilizada para almacenar las tareas en el almacenamiento local del usuario.
 
+![Web App Screenshot](https://github.com/DPuello/Lista-de-Tareas-REACT/blob/main/screenshot.png?raw=true)
+
 ### Configuración del Proyecto
 Sigue los pasos a continuación para configurar el proyecto en tu entorno local:
 
